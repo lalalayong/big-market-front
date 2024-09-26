@@ -7,7 +7,7 @@ import {LuckyWheel} from '@lucky-canvas/react'
 export function LuckyWheelPage() {
 
     const [blocks] = useState([
-        {padding: '10px', background: '#869cfa', imgs: [{src: "https://bugstack.cn/images/system/blog-03.png"}]}
+        {padding: '10px', background: '#869cfa'}
     ])
 
     const [prizes] = useState([

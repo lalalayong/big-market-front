@@ -11,7 +11,7 @@ import {LuckyGrid} from '@lucky-canvas/react'
 export function LuckyGridPage() {
     // 背景
     const [blocks] = useState([
-        {padding: '10px', background: '#869cfa'}
+        {padding: '10px', background: '#869cfa', imgs: [{src: "https://bugstack.cn/images/system/blog-03.png"}]}
     ])
 
     const [prizes] = useState([
