@@ -1,6 +1,5 @@
 // 请求地址
 const apiHostUrl = process.env.API_HOST_URL ? process.env.API_HOST_URL : "https://mock.apipost.net/mock/33f7dd1850f0000";
-const apipostId = "4b6d6b"
 
 /**
  * 查询抽奖奖品列表
