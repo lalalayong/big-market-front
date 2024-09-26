@@ -1,5 +1,6 @@
 // 请求地址
-const apiHostUrl = process.env.API_HOST_URL ? process.env.API_HOST_URL : "https://console-mock.apipost.cn/mock/6afa907d-6678-45e2-b867-032a11090abd";
+const apiHostUrl = process.env.API_HOST_URL ? process.env.API_HOST_URL : "https://mock.apipost.net/mock/33f7dd1850f0000";
+const apipostId = "4b6d6b"
 
 /**
  * 查询抽奖奖品列表
@@ -7,7 +8,7 @@ const apiHostUrl = process.env.API_HOST_URL ? process.env.API_HOST_URL : "https:
  */
 export const queryRaffleAwardList = (strategyId: number) => {
     try {
-        return fetch(`${apiHostUrl}/api/v1/raffle/query_raffle_award_list?strategyId=${strategyId}`, {
+        return fetch(`${apiHostUrl}/api/v1/raffle/query_raffle_award_list?strategyId=${strategyId}&apipost_id=b8e4df`, {
             method: 'get',
             headers: {
                 'Content-Type': 'application/json;charset=utf-8'
@@ -38,7 +39,7 @@ export const queryRaffleAwardList = (strategyId: number) => {
  */
 export const randomRaffle = (strategyId: number) => {
     try {
-        return fetch(`${apiHostUrl}/api/v1/raffle/random_raffle?strategyId=${strategyId}`, {
+        return fetch(`${apiHostUrl}/api/v1/raffle/random_raffle?strategyId=${strategyId}&apipost_id=4b6d6b`, {
             method: 'get',
             headers: {
                 'Content-Type': 'application/json;charset=utf-8'
