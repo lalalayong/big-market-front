@@ -13,6 +13,9 @@ export function StrategyArmory() {
         if (code != "0000") {
             window.alert("抽奖策略装配失败 code:" + code + " info:" + info)
             return;
+        }else{
+            window.alert("抽奖策略装配成功 code:" + code + " info:" + info)
+            return;
         }
     }
 
