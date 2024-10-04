@@ -50,7 +50,7 @@ export function StrategyRuleWeight({refresh}) {
                 </div>
                 {
                     awards && <div className="mt-2">
-                        <div className="text-xs text-black">必中奖品范围</div>
+                        <div className="text-xs text-white">必中奖品范围</div>
                         {// @ts-ignore
 
                             awards.map((award, idx) => (
