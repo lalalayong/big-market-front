@@ -20,7 +20,7 @@ export default function Home() {
     };
 
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen bg-[#e7305e]"
+        <div className="flex flex-col items-center justify-center min-h-screen bg-[#242424]"
              style={{backgroundImage: "url('/background.svg')"}}>
             {/* 头部文案 */}
             <header className="text-7xl font-bold text-center text-gray-800 my-8" style={{color: "white"}}>
@@ -56,8 +56,8 @@ export default function Home() {
 
             {/* 底部文案 */}
             <footer className="text-gray-600 text-center my-8" style={{color: "white"}}>
-                本项目为 星球「码农会锁」第8个实战项目 <a href='https://gaga.plus'
-                                                        target='_blank' color={"#0092ff"}>https://gaga.plus</a> @小傅哥
+                {/*本项目为 星球「码农会锁」第8个实战项目 <a href='https://gaga.plus'*/}
+                {/*                                        target='_blank' color={"#0092ff"}>https://gaga.plus</a> @小傅哥*/}
             </footer>
         </div>
     );

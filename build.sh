@@ -1,1 +1,1 @@
-docker build -t fuzhengwei/big-market-front-app:4.1 .
+docker build -t jcglalalayong/big-market-front-app:4.0 -f ./Dockerfile .
